@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Web-based Asset Allocation Tool</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Simple Web-based Asset Allocation Tool">
+  <meta name="author" content="The Ultimate Learner">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Simple Web-based Asset Allocation Tool</h1>
+    <h2></h2>
+    <p>The Ultimate Learner<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Investing Matters!!</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Saving for the future involves a level of risk-taking</li>
+<li>Allocating money to different stocks can maximize return and minimize risk</li>
+<li>The big question is: How can an investor build the right portfolio to meet the two goals?</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The answer:</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Go to this <a href="https://brainlessok.shinyapps.io/Project/">site</a></li>
+<li>Enter up to 5 stock ticker symbols of your favourite companies or components of your current portfolio</li>
+<li>Click &quot;Submit&quot;</li>
+<li>If you have problem figuring out their stock symbol, click <a href="http://www.marketwatch.com/tools/quotes/lookup.asp?siteID=mktw&amp;Lookup=Boeing&amp;Country=us&amp;Type=All">here</a>. </li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Recent Returns</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The application will display the monthly return for each stock since January 2013</li>
+<li>For example: For Boeing, IBM, Johnson and Johnson, Proctor and Gamble, and Exxon Mobile</li>
+</ul>
+
+<p>5 stocks, observed once per month between 2013-02-01 and 2014-11-03 </p>
+
+<pre><code>           BA     IBM   JNJ    PG    XOM
+</code></pre>
+
+<p>Mean Return 0.031 -0.0073 0.021 0.011 0.0066</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Optimal Portfolio Allocation for the Five</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The optimal allocation for the sample of 5 stocks are:<br></li>
+</ul>
+
+<ol>
+<li>Boeing:15.64%<br></li>
+<li>IBM:19.24%</li>
+<li>JNJ:30.42%</li>
+<li>PG:31.79%</li>
+<li>XOM:2.91%</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>R package <a href="http://cran.r-project.org/web/packages/stockPortfolio/stockPortfolio.pdf">stockPortfolio</a> is used to build the simle web-based application.<br></li>
+<li>Look it up and build your own allocation application!</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Investing Matters!!'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The answer:'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Recent Returns'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Optimal Portfolio Allocation for the Five'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='References'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

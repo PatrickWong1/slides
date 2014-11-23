@@ -1,0 +1,56 @@
+---
+title       : Simple Web-based Asset Allocation Tool
+subtitle    : 
+author      : The Ultimate Learner
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Investing Matters!!
+
+* Saving for the future involves a level of risk-taking
+* Allocating money to different stocks can maximize return and minimize risk
+* The big question is: How can an investor build the right portfolio to meet the two goals?
+
+--- .class #id 
+
+## The answer: 
+
+* Go to this [site] (https://brainlessok.shinyapps.io/Project/)
+* Enter up to 5 stock ticker symbols of your favourite companies or components of your current portfolio
+* Click "Submit"
+* If you have problem figuring out their stock symbol, click [here] (http://www.marketwatch.com/tools/quotes/lookup.asp?siteID=mktw&Lookup=Boeing&Country=us&Type=All). 
+
+--- .class #id 
+
+## Recent Returns
+* The application will display the monthly return for each stock since January 2013
+* For example: For Boeing, IBM, Johnson and Johnson, Proctor and Gamble, and Exxon Mobile
+
+5 stocks, observed once per month between 2013-02-01 and 2014-11-03 
+
+               BA     IBM   JNJ    PG    XOM
+Mean Return 0.031 -0.0073 0.021 0.011 0.0066
+
+--- .class #id 
+
+## Optimal Portfolio Allocation for the Five
+* The optimal allocation for the sample of 5 stocks are:  
+
+1. Boeing:15.64%  
+2. IBM:19.24%
+3. JNJ:30.42%
+4. PG:31.79%
+5. XOM:2.91%
+
+--- .class #id 
+
+## References
+* R package [stockPortfolio] (http://cran.r-project.org/web/packages/stockPortfolio/stockPortfolio.pdf) is used to build the simle web-based application.  
+* Look it up and build your own allocation application!
+
